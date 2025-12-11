@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FuncNamespace.Program</StartupObject>
+    <StartupObject>LambdasWithActionDelegate.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

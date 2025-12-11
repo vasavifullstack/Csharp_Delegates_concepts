@@ -50,6 +50,7 @@
     <Compile Include="2.Delegate_return.cs" />
     <Compile Include="3.AnonymousMethod.cs" />
     <Compile Include="4.Anonymous-Lambda.cs" />
+    <Compile Include="5.Anonymous_delegates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

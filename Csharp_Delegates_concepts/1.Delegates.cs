@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Csharp_Delegates_concepts
+namespace RestaurantDelegate_Void_Example
 {
-    public delegate void KitchenSection(string order);  //delegate signature,kitchenSection is delegate type .
-                                                        //delegate type -store address of a method and call it later.
+
+    public delegate void KitchenSection(string order);//delegate signature,kitchenSection is delegate type .
+                                                      //delegate type -store address of a method and call it later.s
+
     class Restaurant
     {
-
         // Methods that will be assigned to the delegate
-        public void MainCourseSection(string order) {
-            Console.WriteLine($"Main Course Chef is preparing: {order}"); // Main course sectio
-
+        public void MainCourseSection(string order)
+        {
+            Console.WriteLine($"Main Course Chef is preparing: {order}"); // Main course section
         }
+
         // Methods that will be assigned to the delegate
         public void DessertSection(string order)
         {
@@ -27,16 +28,16 @@ namespace Csharp_Delegates_concepts
         public void DrinksSection(string order)
         {
             Console.WriteLine($"Drinks Section is preparing: {order}");// Drinks section
-
-
-            
-            }
         }
-          class Customer
+
+    }
+
+
+    class Customer
+    {
+        static void Main()
         {
-            static void Main()
-            {
-                Restaurant restaurant = new Restaurant();
+            Restaurant restaurant = new Restaurant();
 
             // "Waiter" acts as the delegate that routes orders
             KitchenSection waiter;
@@ -58,6 +59,16 @@ namespace Csharp_Delegates_concepts
             waiter("Mojito");
 
 
+
+
+
+
+
+            //Delegate 
+
+            //restaurant.DrinksSection("Ice cream");
+
+
         }
     }
-    }
+}

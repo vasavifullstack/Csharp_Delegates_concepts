@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LambdaWithReturntypes.Program</StartupObject>
+    <StartupObject>FuncNamespace.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="3.AnonymousMethod.cs" />
     <Compile Include="4.Anonymous-Lambda.cs" />
     <Compile Include="5.Anonymous_returntype.cs" />
+    <Compile Include="6.lambda_func.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

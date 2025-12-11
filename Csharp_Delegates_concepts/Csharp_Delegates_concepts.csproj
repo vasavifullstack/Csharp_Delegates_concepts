@@ -49,6 +49,7 @@
     <Compile Include="1.Delegates.cs" />
     <Compile Include="2.Delegate_return.cs" />
     <Compile Include="3.AnonymousMethod.cs" />
+    <Compile Include="4.Anonymous-Lambda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

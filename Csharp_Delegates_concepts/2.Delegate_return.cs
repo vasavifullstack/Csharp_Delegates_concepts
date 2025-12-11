@@ -16,6 +16,10 @@ namespace DelegatesWithReturns
     // Delegate that returns bool (to check availability)
     public delegate bool OrderAvailability(string order);
 
+    //HERE delegate different return type like string,void,bool so we can three delegate for three method
+    //delegate signature should be match then delegate call the method otherwise no call
+
+
 
     class Restaurant
     {
@@ -51,14 +55,19 @@ namespace DelegatesWithReturns
     {
         public static void Main()
         {
-
+            //create an instance to call the method
             Restaurant restaurant = new Restaurant();
-            //restaurant.
+            //by using delegate we can call the method
 
+
+            //restaurant.
+            // here delegate type delegate variable
             //OrderPreparation preparationDelegate;
             //preparationDelegate = restaurant.PrepareMainCourse;
 
             // Create delegates for different tasks
+            // assigning the method to delegate
+
             OrderPreparation preparationDelegate = restaurant.PrepareMainCourse;  // Delegate to prepare orders
             OrderConfirmation confirmationDelegate = restaurant.ConfirmOrder;  // Delegate to confirm orders
             OrderAvailability availabilityDelegate = restaurant.CheckOrderAvailability;  // Delegate to check availability
@@ -85,7 +94,8 @@ namespace DelegatesWithReturns
             string order1 = "Coffee";
 
             Console.WriteLine("\nChecking order availability...");
-            bool isOrderAvailable1 = availabilityDelegate(order);
+            //availabilityDelegate call the checkorderAvailability method if it is tru
+            bool isOrderAvailable1 = availabilityDelegate(order);//true = true
             //No coofee
             if (isOrderAvailable1)
             {

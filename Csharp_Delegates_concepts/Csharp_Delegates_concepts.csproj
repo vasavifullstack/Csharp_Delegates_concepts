@@ -52,6 +52,7 @@
     <Compile Include="4.Anonymous-Lambda.cs" />
     <Compile Include="5.Anonymous_returntype.cs" />
     <Compile Include="6.lambda_func.cs" />
+    <Compile Include="7.lambda_Action.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

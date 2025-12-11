@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LambdasWithActionDelegate.Program</StartupObject>
+    <StartupObject>LambdasWithPredicateDelegate.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="5.Anonymous_returntype.cs" />
     <Compile Include="6.lambda_func.cs" />
     <Compile Include="7.lambda_Action.cs" />
+    <Compile Include="8.Lambda_predicate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LambdasWithActionDelegate
 {
 
-//Action-return void .built in delegate
+    // built in delegate.Action-return void.no return type
     internal class Program
     {
         //// desingn anonymous mehtod with delegate
